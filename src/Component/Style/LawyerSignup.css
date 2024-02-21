@@ -1,0 +1,110 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-fluid{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg , #c000b2aa , #8a2be2);
+}
+.container-fluid .box{
+    width: 30vmax;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 9px 30px -15px rgb(0 0 0);
+}
+.box h3{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 2.5vmax;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 3vmax;
+    position: relative;
+}
+.box h3 span{
+    position: absolute;
+    width: 70%;
+    height: 6px;
+    background: linear-gradient(45deg , #c000b2aa , #8a2be2);
+    bottom: 0px;
+    border-radius: 200px;
+}
+
+.box form .input_box{
+    text-align: center;
+    width: 100%;
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.box form .input_box input{
+    width: 95%;
+    font-size: 14px;
+    padding: 16px 0px;
+    border: none;
+    outline: none;
+}
+.box form .input_box label{
+    position: absolute;
+    left: 8px;
+    top: -12px;
+    font-size: 20px;
+    background-color: #fff;
+    font-weight: bold;
+    padding: 0px 10px;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+ .input_box input:focus + label{
+        top: -16px;
+        font-size: 16px;
+        color: blue;
+        transition: all 0.5s ease-in;
+        background-color: white;
+        padding: 0 5px;
+    }
+
+.submitButton{
+    width: 100%;
+    height: 47px;
+    border: 2px solid black;
+    border-radius: 200px;
+    background: linear-gradient(45deg , #c000b2aa , #8a2be2);
+    box-shadow: 0px 10px 30px -10px rgb(150 50 255);
+    color: white;
+    font-size: 22px;
+    font-family: cursive;
+}
+
+.Select{
+    width: 93%;
+    height: 36px!important;
+}
+
+.forgot_password{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 16px;
+    margin-top: -8px;
+}
+
+.forgot_password > a{
+    text-decoration: none!important;
+}
+
+.select{
+    outline: none;
+    width: 95%;
+    height: 30px;
+}
